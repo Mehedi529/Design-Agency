@@ -6,15 +6,17 @@ import StatList from './StatList';
 import FeaturedProject from './FeaturedProject';
 import MainMenuContent from '../../components/MainMenuContent';
 import Footer from '../../components/Footer';
+import SubscribeSection from '../../components/SubscribeSection';
 
 const HomePage = () => {
     return (
-        <div>
+        <div className='bg-gray-200'>
             <MainMenuContent/>
             <HeroList />
             <WorkList />
             <StatList />
             <FeaturedProject />
+            <SubscribeSection />
             <Footer />
         </div>
     );

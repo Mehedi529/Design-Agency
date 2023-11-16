@@ -3,12 +3,14 @@ import React from 'react';
 import TeamList from './TeamList';
 import MainMenuContent from '../../components/MainMenuContent';
 import Footer from '../../components/Footer';
+import SubscribeSection from '../../components/SubscribeSection';
 
 const TeamPage = () => {
     return (
-        <div>
+        <div className='bg-gray-200'>
             <MainMenuContent/>
             <TeamList />
+            <SubscribeSection />
             <Footer />
         </div>
     );

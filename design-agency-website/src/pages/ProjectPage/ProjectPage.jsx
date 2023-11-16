@@ -3,13 +3,15 @@ import React from 'react';
 import AllProject from './AllProject';
 import MainMenuContent from '../../components/MainMenuContent';
 import Footer from '../../components/Footer';
+import SubscribeSection from '../../components/SubscribeSection';
 
 
 const ProjectPage = () => {
     return (
-        <div>
+        <div className='bg-gray-200'>
             <MainMenuContent/>
             <AllProject />
+            <SubscribeSection />
             <Footer />
         </div>
     );
