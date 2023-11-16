@@ -5,6 +5,7 @@ import WorkList from './WorkList';
 import StatList from './StatList';
 import FeaturedProject from './FeaturedProject';
 import MainMenuContent from '../../components/MainMenuContent';
+import Footer from '../../components/Footer';
 
 const HomePage = () => {
     return (
@@ -14,6 +15,7 @@ const HomePage = () => {
             <WorkList />
             <StatList />
             <FeaturedProject />
+            <Footer />
         </div>
     );
 };

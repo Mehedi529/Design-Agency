@@ -2,12 +2,14 @@
 import React from 'react';
 import TestimonialList from './TestimonialList';
 import MainMenuContent from '../../components/MainMenuContent';
+import Footer from '../../components/Footer';
 
 const TestimonialPage = () => {
     return (
         <div>
             <MainMenuContent/>
             <TestimonialList />
+            <Footer />
         </div>
     );
 };
