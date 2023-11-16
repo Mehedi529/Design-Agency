@@ -4,10 +4,12 @@ import HeroList from './HeroList';
 import WorkList from './WorkList';
 import StatList from './StatList';
 import FeaturedProject from './FeaturedProject';
+import MainMenuContent from '../../components/MainMenuContent';
 
 const HomePage = () => {
     return (
         <div>
+            <MainMenuContent/>
             <HeroList />
             <WorkList />
             <StatList />
