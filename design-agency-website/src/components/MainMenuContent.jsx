@@ -31,8 +31,8 @@ const MainMenuContent = () => {
         </ul>
     </div>
     <div className="navbar-end">
-        <a className="btn">Login</a>
-        <a className="btn">Registration</a>
+        <NavLink to="/login" className="btn">Login</NavLink>
+        <NavLink to="/registration" className="btn">Registration</NavLink>
     </div>
 </div>
 

@@ -4,6 +4,8 @@ import TeamPage from './pages/TeamPage/TeamPage';
 import ServicePage from './pages/ServicePage/ServicePage';
 import ProjectPage from './pages/ProjectPage/ProjectPage';
 import TestimonialPage from './pages/TestimonialPage/TestimonialPage';
+import Login from "./components/Login";
+import Registration from "./components/Registration";
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
             <Route path="/service" element={<ServicePage/>} />
             <Route path="/project" element={<ProjectPage/>} />
             <Route path="/testimonial" element={<TestimonialPage/>} />
+            <Route path="/login" element={<Login/>} />
+            <Route path="/registration" element={<Registration/>} />
         </Routes>
     </BrowserRouter>
   )

@@ -11,6 +11,7 @@ import SubscribeSection from '../../components/SubscribeSection';
 const HomePage = () => {
     return (
         <div className='bg-gray-200'>
+            
             <MainMenuContent/>
             <HeroList />
             <WorkList />

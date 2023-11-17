@@ -20,10 +20,12 @@ const SubscribeSection = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen">
-      <div className="max-w-md p-4 bg-gray-100 rounded-md shadow-md">
-        <h2 className="text-2xl font-semibold mb-2">SUBSCRIBE</h2>
-        <p className="text-gray-600 mb-4">Subscribe To Get The Latest News About Us</p>
+    <div className=" flex items-center justify-center">
+      <div className="max-w-md p-4 rounded-md  text-center">
+        <h2 className="text-2xl font-semibold text-green-500 mb-2">SUBSCRIBE</h2>
+        <p className="text-black font-bold mb-4">
+          Subscribe To Get The Latest News About Us
+        </p>
         <form onSubmit={handleSubmit} className="flex flex-col">
           <label className="mb-2">
             Please Drop Your Email Below To Get Daily Update About What We Do
